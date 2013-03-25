@@ -5,7 +5,7 @@
         "branch": "cm-10.1"
     },
     {
-        "repository": "mnm9994u/kernel_samsung_smdk4412",
+        "repository": "CyanogenMod/kernel_samsung_smdk4412",
         "target_path": "kernel/samsung/smdk4412",
         "branch": "cm-10.1"
     },
