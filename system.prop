@@ -13,12 +13,9 @@ ro.lcd_min_brightness=5
 # HyperDroidAOXP tweaks
 #
 
-#Versions
-ro.modversion=HyperDroidAOXP_Rev1.00
 
 #Tweaks
 windowsmgr.max_events_per_sec=300
-wifi.supplicant_scan_interval=180
 hs.systemserver=16m
 hs.app.process=16m
 hs.su=8m
