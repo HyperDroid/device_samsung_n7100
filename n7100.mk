@@ -75,7 +75,7 @@ PRODUCT_PACKAGES += \
     com.android.nfc_extras
 
 # Enhanced NFC
-$(call inherit-product, vendor/slim/config/nfc_enhanced.mk)
+$(call inherit-product, vendor/aoxp/config/nfc_enhanced.mk)
 
 # RIL
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -93,4 +93,4 @@ PRODUCT_COPY_FILES += \
 $(call inherit-product-if-exists, vendor/samsung/n7100/n7100-vendor.mk)
 
 # Include System-wide makefile
-$(call inherit-product, device/samsung/n7100/slim.mk)
+$(call inherit-product, device/samsung/n7100/aoxp.mk)
