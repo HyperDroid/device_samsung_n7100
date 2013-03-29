@@ -8,7 +8,7 @@ PRODUCT_RELEASE_NAME := GT-N7100
 TARGET_SCREEN_HEIGHT := 1280
 TARGET_SCREEN_WIDTH := 720
 
-# Inherit some common Slim stuff.
+# Inherit some common AOXP stuff.
 $(call inherit-product, vendor/aoxp/config/common_full_phone.mk)
 
 # Inherit device configuration
@@ -25,7 +25,7 @@ PRODUCT_COPY_FILES +=  \
 
 #copy 00check
 PRODUCT_COPY_FILES += \
-    vendor/aoxp/prebuilt/common/etc/init.d/00check:system/etc/init.d/00check
+#    vendor/aoxp/prebuilt/common/etc/init.d/00check:system/etc/init.d/00check
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := n7100
